@@ -1,0 +1,5 @@
+modelo,top5_recall,top5_vs_random,top10_recall,top10_vs_random,top15_recall,top15_vs_random,top20_recall,top20_vs_random,tiempo_s
+Random,0.5312,1.02,1.0573,1.015,1.6667,1.0667,2.3073,1.1075,0.0
+Frecuencia histórica,0.6771,1.3,1.3958,1.34,2.0052,1.2833,2.651,1.2725,0.0
+Random Forest,0.599,1.15,1.0885,1.045,1.7708,1.1333,2.4427,1.1725,3.1
+XGBoost,0.6042,1.16,1.3333,1.28,1.9323,1.2367,2.4792,1.19,3.19

@@ -1,0 +1,12 @@
+{
+  "Frecuencia": 0.0568367688545641,
+  "BetaBinomial decay=1.0": 0.0568367688545641,
+  "BetaBinomial decay=0.99": 0.07186508662530389,
+  "BetaBinomial decay=0.95": 0.023795546976326555,
+  "BetaBinomial decay=0.90": 0.13880735736190492,
+  "BetaBinomial decay=0.80": 0.1588239935159768,
+  "LightGBM depth=3 trees=100": 0.22272169192935334,
+  "LightGBM depth=4 trees=100": 0.22272169192935334,
+  "XGBoost depth=3 trees=100": 0.023795546976326555,
+  "XGBoost depth=4 trees=100": 0.023795546976326555
+}
