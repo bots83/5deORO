@@ -78,7 +78,7 @@ def generate_synthetic_with_drift(n_sorteos: int, drift_strength: float = 0.0, s
     return pd.DataFrame(rows)
 
 
-def evaluate_pretrained_model(real_csv: str, synth_n: int = 5000, drift: float = 0.0) -> dict:
+def evaluate_pretrained_model(real_csv: str, synth_n: int = 1000, drift: float = 0.0) -> dict:
     """
     Pre-entrena con sintéticos, fine-tune con reales, y evalúa.
     Compara contra solo-real (sin pre-training).
@@ -91,9 +91,9 @@ def evaluate_pretrained_model(real_csv: str, synth_n: int = 5000, drift: float =
     real_df = pd.read_csv(real_csv)
     print(f"Datos reales: {len(real_df)} sorteos")
 
-    # Build features para ambos
+    # Build features para ambos (min_history más bajo para tener más datos)
     print("Construyendo features para sintéticos...")
-    synth_features = build_features(synth_df, min_history=30)
+    synth_features = build_features(synth_df, min_history=50)
 
     print("Construyendo features para reales...")
     real_features = build_features(real_df, min_history=30)

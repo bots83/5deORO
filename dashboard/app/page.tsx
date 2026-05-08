@@ -5,6 +5,7 @@ import PredictionCard from "@/components/PredictionCard";
 import FrequencyChart from "@/components/FrequencyChart";
 import RandomnessTestsCard from "@/components/RandomnessTests";
 import RecentDraws from "@/components/RecentDraws";
+import SimulationView from "@/components/SimulationView";
 
 export default function Home() {
   const [sorteos, setSorteos] = useState<Sorteo[]>([]);
@@ -51,6 +52,8 @@ export default function Home() {
       </div>
 
       <FrequencyChart sorteos={sorteos} highlight={prediction?.top5 || []} />
+
+      <SimulationView sorteos={sorteos} prediction={prediction} />
 
       <footer className="mt-12 mb-6 text-center text-xs text-slate-500">
         <p>Dataset: {sorteos.length} sorteos verificados ({sorteos[0]?.fecha} → {sorteos[sorteos.length - 1]?.fecha})</p>

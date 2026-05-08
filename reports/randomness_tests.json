@@ -1,37 +1,37 @@
 {
   "chi_squared_uniform": {
-    "chi2": 54.01714285714286,
-    "p_value": 0.22404481742006965,
+    "chi2": 41.444155844155844,
+    "p_value": 0.7011768697459082,
     "uniforme": "True",
-    "min_count": 4,
-    "max_count": 22,
-    "esperado": 10.9375,
+    "min_count": 24,
+    "max_count": 50,
+    "esperado": 32.083333333333336,
     "df": 47
   },
   "gap_test_geometric": {
-    "chi2": 19.178289293462242,
-    "p_value": 0.5737040625358749,
+    "chi2": 16.72366255178996,
+    "p_value": 0.9538495337700322,
     "geometrico": "True",
-    "media_observada": 8.672955974842766,
+    "media_observada": 9.353887399463806,
     "media_esperada": 9.6,
-    "n_gaps": 477
+    "n_gaps": 1492
   },
   "autocorrelation_test": {
-    "max_acf_excluding_lag0": 0.19471926500446196,
+    "max_acf_excluding_lag0": 0.11619752641563108,
     "lags_significativos": [],
-    "ljung_box_lag10_p": 0.6872670997831919,
-    "ljung_box_lag20_p": 0.762021270006313,
-    "ljung_box_lagmax_p": 0.4406705295415344,
+    "ljung_box_lag10_p": 0.12418545273526524,
+    "ljung_box_lag20_p": 0.05031379347798927,
+    "ljung_box_lagmax_p": 0.2036904784497326,
     "iid": true
   },
   "cooccurrence_chi2": {
-    "chi2": 1231.7828571428568,
+    "chi2": 1167.5792207792206,
     "df": 1127,
-    "p_value": 0.015538791195782942,
-    "independientes": "False",
-    "media_observada": 0.9308510638297872,
-    "media_esperada": 0.9308510638297873,
+    "p_value": 0.19525899000556846,
+    "independientes": "True",
+    "media_observada": 2.730496453900709,
+    "media_esperada": 2.7304964539007095,
     "min_observado": 0,
-    "max_observado": 6
+    "max_observado": 9
   }
 }
