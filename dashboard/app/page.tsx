@@ -51,7 +51,7 @@ export default function Home() {
         {tests && <RandomnessTestsCard tests={tests} />}
       </div>
 
-      <FrequencyChart sorteos={sorteos} highlight={prediction?.top5 || []} />
+      <FrequencyChart sorteos={sorteos} highlight={prediction?.predictions?.top10?.numbers || []} />
 
       <SimulationView sorteos={sorteos} prediction={prediction} />
 

@@ -1,0 +1,31 @@
+{
+  "score": 723,
+  "weights": {
+    "cdm_last150": 0.218,
+    "pair": 0.045,
+    "cluster085": 0.737
+  },
+  "metrics_5of5": {
+    "top10": 0,
+    "top15": 0,
+    "top20": 2,
+    "top25": 3,
+    "top30": 5,
+    "top35": 9,
+    "top40": 20,
+    "top45": 36
+  },
+  "metrics_3plus": {
+    "top10": 4,
+    "top15": 11,
+    "top20": 18,
+    "top25": 30
+  },
+  "metrics_4plus": {
+    "top10": 1,
+    "top15": 3,
+    "top20": 5,
+    "top25": 12,
+    "top30": 24
+  }
+}

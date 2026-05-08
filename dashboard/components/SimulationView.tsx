@@ -43,8 +43,8 @@ export default function SimulationView({ sorteos, prediction }: Props) {
 
     // Si tenemos predicción, evaluar contra últimos N
     let backtest = null;
-    if (prediction) {
-      const top10 = new Set(prediction.top10);
+    if (prediction && prediction.predictions?.top10) {
+      const top10 = new Set(prediction.predictions.top10.numbers);
       const last20 = sorteos.slice(-20);
       let hits = 0;
       last20.forEach((s) => {

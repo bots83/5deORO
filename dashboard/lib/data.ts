@@ -6,22 +6,35 @@ export type Sorteo = {
   fuente: string;
 };
 
+export type PredictionLevel = {
+  numbers: number[];
+  label: string;
+  note?: string;
+  prob_total: number;
+  backtest?: {
+    "5_hits": number;
+    "4plus_hits": number;
+    "3plus_hits": number;
+    "2plus_hits": number;
+    "1plus_hits": number;
+    "0_hits": number;
+  };
+};
+
 export type Prediction = {
   fecha_dataset: string;
   n_sorteos_dataset: number;
-  top5: number[];
-  top10: number[];
-  top15: number[];
-  ensemble_probs: Record<string, number>;
-  models_predictions: Record<string, number[]>;
+  predictions: Record<string, PredictionLevel>;
   weights_used: Record<string, number>;
+  backtest_50_sorteos?: Record<string, any>;
+  all_probs: Record<string, number>;
 };
 
 export type RandomnessTests = {
-  chi_squared_uniform: { chi2: number; p_value: number; uniforme: boolean; min_count: number; max_count: number; esperado: number; df: number };
-  gap_test_geometric: { chi2: number; p_value: number; geometrico: boolean; media_observada: number; media_esperada: number; n_gaps: number };
+  chi_squared_uniform: { chi2: number; p_value: number; uniforme: boolean | string; min_count: number; max_count: number; esperado: number; df: number };
+  gap_test_geometric: { chi2?: number; p_value: number; geometrico: boolean | string; media_observada: number; media_esperada: number; n_gaps: number };
   autocorrelation_test: { max_acf_excluding_lag0: number; ljung_box_lag10_p: number; ljung_box_lag20_p: number; lags_significativos: number[]; iid: boolean };
-  cooccurrence_chi2: { chi2: number; p_value: number; independientes: boolean; media_observada: number; media_esperada: number };
+  cooccurrence_chi2: { chi2: number; p_value: number; independientes: boolean | string; media_observada: number; media_esperada: number };
 };
 
 export async function loadSorteos(): Promise<Sorteo[]> {
