@@ -1,0 +1,101 @@
+[
+  {
+    "cfg": "{'num_leaves': 50, 'max_depth': 5, 'learning_rate': 0.03, 'n_estimators': 250, 'reg_alpha': 0.1, 'reg_lambda': 0.1}",
+    "weight_pos": 3.0,
+    "30_3+": 36,
+    "31_3+": 38,
+    "35_3+": 46,
+    "38_4+": 36,
+    "40_4+": 41,
+    "45_5/5": 37,
+    "score": 614
+  },
+  {
+    "cfg": "{'num_leaves': 50, 'max_depth': 5, 'learning_rate': 0.03, 'n_estimators': 200, 'reg_alpha': 0.05, 'reg_lambda': 0.05}",
+    "weight_pos": 2.5,
+    "30_3+": 37,
+    "31_3+": 39,
+    "35_3+": 44,
+    "38_4+": 37,
+    "40_4+": 40,
+    "45_5/5": 35,
+    "score": 620
+  },
+  {
+    "cfg": "{'num_leaves': 50, 'max_depth': 5, 'learning_rate': 0.03, 'n_estimators': 300, 'reg_alpha': 0.2, 'reg_lambda': 0.2}",
+    "weight_pos": 4.0,
+    "30_3+": 39,
+    "31_3+": 43,
+    "35_3+": 46,
+    "38_4+": 34,
+    "40_4+": 39,
+    "45_5/5": 36,
+    "score": 639
+  },
+  {
+    "cfg": "{'num_leaves': 80, 'max_depth': 6, 'learning_rate': 0.03, 'n_estimators': 250, 'reg_alpha': 0.1, 'reg_lambda': 0.1}",
+    "weight_pos": 3.0,
+    "30_3+": 35,
+    "31_3+": 38,
+    "35_3+": 44,
+    "38_4+": 35,
+    "40_4+": 40,
+    "45_5/5": 39,
+    "score": 600
+  },
+  {
+    "cfg": "{'num_leaves': 30, 'max_depth': 4, 'learning_rate': 0.05, 'n_estimators': 200, 'reg_alpha': 0.1, 'reg_lambda': 0.1}",
+    "weight_pos": 3.0,
+    "30_3+": 30,
+    "31_3+": 30,
+    "35_3+": 43,
+    "38_4+": 30,
+    "40_4+": 32,
+    "45_5/5": 32,
+    "score": 510
+  },
+  {
+    "cfg": "{'num_leaves': 100, 'max_depth': -1, 'learning_rate': 0.02, 'n_estimators': 400, 'reg_alpha': 0.1, 'reg_lambda': 0.1}",
+    "weight_pos": 3.0,
+    "30_3+": 36,
+    "31_3+": 37,
+    "35_3+": 42,
+    "38_4+": 32,
+    "40_4+": 37,
+    "45_5/5": 32,
+    "score": 582
+  },
+  {
+    "cfg": "{'num_leaves': 60, 'max_depth': 5, 'learning_rate': 0.025, 'n_estimators': 300, 'reg_alpha': 0.15, 'reg_lambda': 0.15, 'feature_fraction': 0.8, 'bagging_fraction': 0.8}",
+    "weight_pos": 2.5,
+    "30_3+": 33,
+    "31_3+": 35,
+    "35_3+": 39,
+    "38_4+": 30,
+    "40_4+": 36,
+    "45_5/5": 36,
+    "score": 545
+  },
+  {
+    "cfg": "{'num_leaves': 50, 'max_depth': 5, 'learning_rate': 0.03, 'n_estimators': 250, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'min_child_samples': 10}",
+    "weight_pos": 3.5,
+    "30_3+": 31,
+    "31_3+": 34,
+    "35_3+": 41,
+    "38_4+": 32,
+    "40_4+": 41,
+    "45_5/5": 38,
+    "score": 551
+  },
+  {
+    "cfg": "{'num_leaves': 70, 'max_depth': 6, 'learning_rate': 0.02, 'n_estimators': 350, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'feature_fraction': 0.9}",
+    "weight_pos": 3.0,
+    "30_3+": 33,
+    "31_3+": 34,
+    "35_3+": 43,
+    "38_4+": 33,
+    "40_4+": 38,
+    "45_5/5": 36,
+    "score": 562
+  }
+]
