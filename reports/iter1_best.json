@@ -1,0 +1,16 @@
+{
+  "top5_avg": 0.6,
+  "top10_avg": 1.26,
+  "top15_avg": 1.7,
+  "n_3plus_top10": 7,
+  "n_3plus_top15": 11,
+  "n_2plus_top10": 17,
+  "n_zero_top10": 11,
+  "config": "BB3(0.99_0.95_0.7)_w0.7_0.2",
+  "time_s": 0.1,
+  "meta_objetivo": {
+    "n_3plus_top10_meta": 35,
+    "logrado": 7,
+    "gap": 28
+  }
+}

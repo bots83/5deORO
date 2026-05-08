@@ -1,0 +1,42 @@
+{
+  "top10_best": {
+    "config": "BB3_winner",
+    "5of5": 0
+  },
+  "top12_best": {
+    "config": "BB3_winner",
+    "5of5": 0
+  },
+  "top15_best": {
+    "config": "BB3_winner",
+    "5of5": 0
+  },
+  "top18_best": {
+    "config": "BB3_winner",
+    "5of5": 0
+  },
+  "top20_best": {
+    "config": "BB(0.99,0.85)_w0.5",
+    "5of5": 1
+  },
+  "top25_best": {
+    "config": "BB(0.99,0.7)_w0.7",
+    "5of5": 3
+  },
+  "top30_best": {
+    "config": "BB3_winner",
+    "5of5": 7
+  },
+  "top35_best": {
+    "config": "BB(0.95,0.7)_w0.7",
+    "5of5": 14
+  },
+  "top40_best": {
+    "config": "BB3_winner",
+    "5of5": 24
+  },
+  "top45_best": {
+    "config": "BB(0.99,0.85)_w0.5",
+    "5of5": 37
+  }
+}
